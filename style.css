@@ -1,0 +1,18 @@
+.wrapper {
+    max-width: 1440px;
+}
+.container {
+    width: 90.973%;
+    margin: auto;
+}
+.nav {
+    position: relative;
+}
+.nav::after {
+    content: "*";
+    position: absolute;
+    font-size: 12px;
+    top: -6px;
+    right: -9px;
+    color: #FF8A00;
+}

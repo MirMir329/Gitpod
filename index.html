@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="wrapper sm:w-[100%] bg-[#f5f3f4] m-auto">
+        <header class="container ">
+            <section class="flex flex-row items-center w-[80%] md:w-[100%] md:px-6  m-auto justify-between py-4  xl:px-[32px] ">
+                <img src="./images/Frame.svg" alt="#"> 
+                <nav class="nav hidden md:flex md:gap-4 capitalize xl:gap-[42px] font-[roboto]">
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Docs</a>
+                    <a href="#">Changelog</a>
+                    <a href="#">We're hiring</a>
+                </nav>
+                <button class="text-[14px] bg-black text-white w-1/5 h-[32px] rounded-[12px] md:w-[80px] font-[roboto]">Login</button>
+            </section>
+        </header>
+
+        <main class="w-[90.973%] m-auto ">
+            <section class="mt-6 flex flex-col-reverse items-center gap-6 md:flex-row justify-between py-4 xl:px-[32px]" >
+                <div>
+                    <h1 class="text-[40px] font-bold leading-[40px] md:leading-[60px] font-[roboto] md:text-[60px]">
+                        Always <br> Ready to Code.
+                    </h1>
+                    <p class="my-6 w-[90%] md:w-[380px] font-[roboto] ">
+                        Spin up fresh, automated dev environments
+                        for each task, in the cloud, in seconds.
+                    </p>
+                    <div class="flex flex-col items-start gap-4">
+                        <button class="bg-[#FFAE33] rounded-[16px] px-4 py-1" >Try Now</button>
+                        <span>Open a workspace. <br> Start from any Git context.</span>
+                    </div>
+                    <ul class="flex gap-4 mt-4">
+                        <li>
+                            <a href="#">
+                                <img src="./images/Frame (1).svg" alt="#">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/Frame (2).svg" alt="#">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/Frame (3).svg" alt="#">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./images/Rectangle.png" alt="#">
+                </div>
+            </section>
+
+            <section class="mt-6 text-[20px] md:text-[32px] xl:text-[40px] font-[roboto] flex flex-col items-center justife-center leading-[30px] md:leading-[40px] text-center">
+                <p class="font-bold">
+                    Select project,
+                <br>
+                <span class="font-normal text-[#999795] line-through">
+                    check dependencies, checkout branch, view <br>
+                    readme.txt, install tools, run build, run test,
+                </span>
+                <br>
+                    start coding.
+                </p>
+            </section>
+
+            <section class="flex md:flex-row flex-col-reverse xl:py-[160px] md:py-[80px] py-[40px] gap-[25px] ">
+                <div class="flex flex-col gap-[60px] xl:pt-[56px] md:pt-[28px] pt-[14px] xl:gap-[150px]">
+                    <div class="div flex flex-col gap-2 ">
+                        <p class="font-bold text-[20px] md:text-[28px]">
+                            Think CI/CD for dev environments
+                        </p>
+                        <span class="text-gray-400 text-[18px] md:text-[18px]">
+                            We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.
+                        </span>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-start gap-5">
+                        <button class="bg-[#FFAE33] rounded-[10.5px] px-[15px] py-[7px]">More on prebuilds</button>
+                        <button class="bg-[#FFB0AE] rounded-[10.5px] px-[15px] py-[7px]">Documentation</button>
+                    </div>
+                </div>
+                <img class="md:w-[50%]" src="./images/Rectangle (2).png" alt="#">
+            </section>
+            <section class="text-center flex flex-col xl:mt-[177px] md:mt-[100px] mt-[50px] gap-[25px]">
+                <h1 class="text-[28px] font-bold md:text-[42px]">
+                    Remote-first. Secure by design.
+                </h1>
+                <img src="./images/Rectangle (3).png" alt="#">
+                <p class="md:text-[20px]">
+                    You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.
+                    Chrome Extension
+                    Firefox Extension
+                </p>
+                <div class="flex flex-row justify-between md:justify-center md:gap-[30px] relative">
+                    <div class="border-2 border-black  ">
+                        <div class="first flex flex-row gap-[4px] xl:px-[12px] xl:py-[7px] bg-white rounded-xl ">
+                            <img src="./images/Frame (1123).svg" alt="#">
+                            <p class="text-[14px] font-bold">Chrome Extension</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black  ">
+                        <div class="second flex flex-row gap-[4px] xl:px-[12px] xl:py-[7px] bg-white rounded-xl  z-10">
+                            <img src="./images/Frame (2132).svg" alt="#">
+                            <p class="text-[14px] font-bold">Firefox Extension</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flex flex-col items-center w-[100%] mt-[80px] gap-[20px] md:gap-[35px] xl:gap-[50px]">
+                <h1 class="text-[32px] md:text-[42px] xl:text-[54px] font-bold text-center">Used by 400,00+ developers.</h1>
+                <div class="center-h w-[90%] flex xl:flex-row flex-col justify-between gap-[25px]">
+                    <div class="table-one flex flex-col w-[100%]  xl:w-[30%] bg-[#FFF] xl:h-[240px] xl:px-[24px] xl:pt-[24px] p-[15px] gap-[12px] rounded-xl">
+                        <p>GitPod is incredibly cool.</p>
+                        <p>In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+                        <div class="flex flex-row gap-[10px]" >
+                            <img class="w-[48px] h-[48px]" src="./images/portret2e.png" alt="#">
+                            <div class="flex flex-col gap-[8px]">
+                                <h3 class="font-bold">Ben Halpern</h3>
+                                <p>
+                                    Creator and Co-founder <span class="font-bold">@forem</span> and <span class="font-bold">@ThePracticalDev</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-two flex flex-col w-[100%] xl:w-[30%] bg-[#FFF] p-[15px]  gap-[8px] rounded-xl xl:px-[24px] xl:py-[24px]">
+                        <p>Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.</p>
+                        <p>Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard </p>
+                        <div class="flex flex-row gap-[10px]" >
+                            <img class="w-[48px] h-[48px]" src="./images/Rectangle (1).png" alt="#">
+                            <div class="flex flex-col gap-[8px]">
+                                <h3 class="font-bold">Michael Friedrich</h3>
+                                <p>
+                                    Developer Evangelist <span class="font-bold">@GitLab</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-three flex flex-col w-[100%] xl:w-[30%] bg-[#FFF] p-[15px]  gap-[8px] rounded-xl xl:px-[24px] xl:pt-[24px] xl:h-[245px]">
+                        <p>Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                        <div class="flex flex-row gap-[10px]" >
+                            <img class="w-[48px] h-[48px]" src="./images/port223.png" alt="#">
+                            <div class="flex flex-col gap-[8px]">
+                                <h3 class="font-bold">Julius Volz</h3>
+                                <p>
+                                    Creator <span class="font-bold">@PrometheusIO</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row flex-wrap gap-[30px] justify-center">
+                    <img src="./images/logo1.svg" alt="#"> 
+                    <img src="./images/logo2.svg" alt="#">
+                    <img src="./images/logo3.svg" alt="#">
+                    <img src="./images/logo4.svg" alt="#">
+                    <img src="./images/logo5.svg" alt="#">
+                    <img src="./images/logo6.svg" alt="#">
+                    <img src="./images/logo7.svg" alt="#">
+                    <img src="./images/logo8.svg" alt="#">
+                    <img src="./images/logo9.svg" alt="#">
+                    <img src="./images/logo10.svg" alt="#">
+                    <img src="./images/logo11.svg" alt="#">
+                    <img src="./images/logo12.png" alt="#">
+                </div>
+            </section>
+
+            <section class="w-[100%] my-[60px] md:my-[100px] xl:my-[180px] flex flex-col items-center gap-[20px] xl:gap-[40px]">
+                <h1 class="text-[28px] md:text-[42px] xl:text-[54px] font-bold text-center">Get started now</h1>
+                <div class="w-[100%] flex flex-col xl:flex-row  gap-[30px] items-center ">
+                    <div class="flex flex-col xl:h-[710px] xl:w-[50%] w-[100%] md:w-[65%] bg-[#FFFFFF] rounded-xl xl:gap-[70px] gap-[30px] px-[20px] xl:py-[50px] xl:px-[70px] py-[25px]">
+                        <div class="text flex flex-col gap-[8px]">
+                            <h1 class="text-[20px] md:text-[26px] xl:text-[32px] font-bold text-center">Connect Git repository</h1>
+                            <p class="text-[#12100CB2] text-center xl:text-[24px]">Select a Git provider to start with an existing project from any Git context.</p>
+                        </div>
+                        <div class="flex flex-col items-center xl:gap-[16px] gap-[12px]">
+                            <button class=" w-[236px] flex bg-[#FC6D26] text-[#FFFFFF] px-[15px] py-[10px] rounded-xl gap-[10px]">
+                                <img src="./images/Frame (13).svg" alt="#">
+                                Continue with GitLab
+                            </button>
+                            <button class="w-[236px] flex bg-[#000000] text-[#FFFFFF] px-[15px] py-[10px] rounded-xl gap-[10px]">
+                                <img src="./images/Frame (14).svg" alt="#">
+                                Continue with GitHub
+                            </button>
+                            <button class=" flex bg-[#2684FF] text-[#FFFFFF] px-[15px] py-[10px] rounded-xl gap-[10px]">
+                                <img src="./images/Frame (15).svg" alt="#">
+                                Continue with Bitbucket
+                            </button>
+                        </div>
+                        <div class=" flex flex-col items-center gap-[6px]">
+                            <p class="text-[#12100CB2] text-center xl:text-[24px]">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                            <div class="w-[151px] xl:text-[24px] bg-[#FFE4BC] rounded-xl text-center text-[#12100CB2]">gitpod.io/#</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col xl:w-[50%] md:w-[65%] w-[100%] bg-[#FFFFFF] rounded-xl gap-[30px] px-[15px] xl:py-[50px] py-[25px]">
+                        <div class="text flex flex-col gap-[8px]">
+                            <h1 class="text-[20px] md:text-[26px] xl:text-[32px] font-bold text-center">Launch an example workspace</h1>
+                            <p class="text-[#12100CB2] text-center text-[23px]">Dive into one of our example workspaces</p>
+                        </div>
+                        <div class="flex flex-col gap-[20px] items-center">
+
+                            <div class="flex bg-[#F9F9F9] py-[15px] px-[10px] justify-between items-center rounded-xl w-[100%] sm:w-[80%] md:w-[80%] xl:w-[80%]">
+                                <div class="flex gap-[10px] xl:gap-[16px]">
+                                    <img src="./images/Frame (16).svg" alt="#">
+                                    <p class="text-[#12100CB2] xl:text-[20px]">Node or TypeScript</p>
+                                </div>
+                                <button class="bg-[#12100C] text-[#FFFFFF] xl:px-[12px] xl:py-[7px] px-[8px] py-[3px] rounded-xl text-[14px]">Launch workspace</button>
+                            </div>
+
+                            <div class="flex bg-[#F9F9F9] py-[15px] px-[10px] justify-between items-center rounded-xl w-[100%] sm:w-[80%] md:w-[80%] xl:w-[80%]">
+                                <div class="flex gap-[10px] xl:gap-[16px]">
+                                    <img src="./images/Frame (17).svg" alt="#">
+                                    <p class="text-[#12100CB2] xl:text-[20px]">Python</p>
+                                </div>
+                                <button class="bg-[#12100C] text-[#FFFFFF] xl:px-[12px] xl:py-[7px] px-[8px] py-[3px] rounded-xl text-[14px]">Launch workspace</button>
+                            </div>
+
+                            <div class="flex bg-[#F9F9F9] py-[15px] px-[10px] justify-between items-center rounded-xl w-[100%] sm:w-[80%] md:w-[80%] xl:w-[80%]">
+                                <div class="flex gap-[10px] xl:gap-[16px]">
+                                    <img src="./images/Frame (18).svg" alt="#">
+                                    <p class="text-[#12100CB2] xl:text-[20px]">Go</p>
+                                </div>
+                                <button class="bg-[#12100C] text-[#FFFFFF] xl:px-[12px] xl:py-[7px] px-[8px] py-[3px] rounded-xl text-[14px]">Launch workspace</button>
+                            </div>
+
+                            <div class="flex bg-[#F9F9F9] py-[15px] px-[10px] justify-between items-center rounded-xl w-[100%] sm:w-[80%] md:w-[80%] xl:w-[80%]">
+                                <div class="flex gap-[10px] xl:gap-[16px]">
+                                    <img src="./images/Frame (19).svg" alt="#">
+                                    <p class="text-[#12100CB2] xl:text-[20px]">Rust</p>
+                                </div>
+                                <button class="bg-[#12100C] text-[#FFFFFF] xl:px-[12px] xl:py-[7px] px-[8px] py-[3px] rounded-xl text-[14px]">Launch workspace</button>
+                            </div>
+
+                            <div class="flex bg-[#F9F9F9] py-[15px] px-[10px] justify-between items-center rounded-xl w-[100%] sm:w-[80%] md:w-[80%] xl:w-[80%]">
+                                <div class="flex gap-[10px] xl:gap-[16px]">
+                                    <img src="./images/Frame (20).svg" alt="#">
+                                    <p class="text-[#12100CB2] xl:text-[20px]">Java</p>
+                                </div>
+                                <button class="bg-[#12100C] text-[#FFFFFF] xl:px-[12px] xl:py-[7px] px-[8px] py-[3px] rounded-xl text-[14px]">Launch workspace</button>
+                            </div>
+
+                            <div class="flex bg-[#F9F9F9] py-[15px] px-[10px] justify-between items-center rounded-xl w-[100%] sm:w-[80%] md:w-[80%] xl:w-[80%]">
+                                <div class="flex gap-[10px] xl:gap-[16px]">
+                                    <img src="./images/Frame (21).svg" alt="#">
+                                    <p class="text-[#12100CB2] xl:text-[20px]">Svelte</p>
+                                </div>
+                                <button class="bg-[#12100C] text-[#FFFFFF] xl:px-[12px] xl:py-[7px] px-[8px] py-[3px] rounded-xl text-[14px]">Launch workspace</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <footer class="w-[100%] bg-[#F9F9F9] flex flex-col items-center">
+            <div class="flex flex-row justify-center xl:gap-[171px] md:gap-[120px] sm:gap-[40px] gap-[40px] xl:pt-[47px] md:pt-[25px] sm:pt-[25px] pt-[20px]">
+                <div class="flex flex-col xl:gap-[7px] md:gap-[7px] sm:gap-[5px] gap-[3px]">
+                    <h3 class="font-bold text-[13px]">Gitpod</h3>
+                    <p class="text-[#12100CB2] text-[13px]">Home</p>
+                    <p class="text-[#12100CB2] text-[13px]">Features</p>
+                    <p class="text-[#12100CB2] text-[13px]">Pricing</p>
+                    <p class="text-[#12100CB2] text-[13px]">Changelog</p>
+                    <p class="text-[#12100CB2] text-[13px]">Self-Hosted</p>
+                    <p class="text-[#12100CB2] text-[13px]">Gitpod vs GitHub <br> Codespaces</p>
+                    <p class="text-[#12100CB2] text-[13px]">Status</p>
+                </div>
+
+                <div class=" flex-col xl:gap-[7px] md:gap-[7px] sm:gap-[5px] hidden xl:flex md:flex sm:flex gap-[3px]">
+                    <h3 class="font-bold text-[13px]">Developer</h3>
+                    <p class="text-[#12100CB2] text-[13px]">Getting started</p>
+                    <p class="text-[#12100CB2] text-[13px]">Screencasts</p>
+                    <p class="text-[#12100CB2] text-[13px]">Blog</p>
+                    <p class="text-[#12100CB2] text-[13px]">Documentation</p>
+                    <p class="text-[#12100CB2] text-[13px]">Report a bug</p>
+                    <p class="text-[#12100CB2] text-[13px]">Community</p>
+                </div>
+
+                <div class="hidden xl:flex md:flex sm:flex flex-col xl:gap-[7px] md:gap-[7px] sm:gap-[5px] gap-[3px]">
+                    <h3 class="font-bold text-[13px]">Company</h3>
+                    <p class="text-[#12100CB2] text-[13px]">About</p>
+                    <p class="text-[#12100CB2] text-[13px]">Careers</p>
+                    <p class="text-[#12100CB2] text-[13px]">Contact</p>
+                    <p class="text-[#12100CB2] text-[13px]">Media Kit</p>
+                </div>
+
+                <div class="flex flex-col xl:gap-[7px] md:gap-[7px] sm:gap-[5px] gap-[3px]">
+                    <h3 class="font-bold text-[13px]">Legal</h3>
+                    <p class="text-[#12100CB2] text-[13px]">Imprint</p>
+                    <p class="text-[#12100CB2] text-[13px]">Terms of Service</p>
+                    <p class="text-[#12100CB2] text-[13px]">Privacy Policy</p>
+                </div>
+            </div>
+
+            <div class="h-[1px] xl:w-[852px] md:w-[700px] sm:w-[470px] w-[300px] bg-[#ECE7E5] xl:mt-[48px] md:nt-[30px] sm:-[20px] mt-[15px]"></div>
+
+            <div class="flex flex-row xl:mt-[35px] md:mt-[25px] sm:mt-[15px] mt-[10px] justify-between xl:gap-[572px] md:gap-[432px] sm:gap-[200px] gap-[50px] xl:mb-[34px] mb-[34px]">
+                <div class="flex gap-[8px]">
+                    <img src="./images/Frame (22).svg" alt="#">
+                    <p class="text-[#12100CB2] text-[13px]">Copyright © 2021 Gitpod</p>
+                </div>
+                <div class=" flex xl:gap-[16px] md:gap-[10px] sm:gap-[7px] gap-[5px]">
+                    <img src="./images/Frame (25).svg" alt="#">
+                    <img src="./images/Frame (23).svg" alt="#">
+                    <img src="./images/Frame (24).svg" alt="#">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
